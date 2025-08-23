@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
 [![Bun Version](https://img.shields.io/badge/bun-v1.0-blue.svg)](https://bun.sh/)  
-[![TypeScript](https://img.shields.io/badge/typescript-4.9-blue.svg)](https://www.typescriptlang.org/)  
+[![TypeScript](https://img.shields.io/badge/typescript-5.5.3-blue.svg)](https://www.typescriptlang.org/)  
 
 A simple, lightweight **TypeScript** web framework built on **Bun** inspired by Laravel's elegant MVC style.  
 Fast, minimal, and developer-friendly with decorators, Prisma integration, and easy response rendering.
