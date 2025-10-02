@@ -1,4 +1,4 @@
-# 🚀 TS-Laravel | Bun TypeScript Framework
+# TS-Laravel | Bun TypeScript Framework
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
 [![Bun Version](https://img.shields.io/badge/bun-v1.0-blue.svg)](https://bun.sh/)  
@@ -9,7 +9,7 @@ Fast, minimal, and developer-friendly with decorators, Prisma integration, and e
 
 ---
 
-## 🌟 Features
+## Features
 
 - **TypeScript & Bun-powered** for speed and type safety  
 - MVC architecture with Controllers, Routes, and Middleware  
@@ -22,7 +22,7 @@ Fast, minimal, and developer-friendly with decorators, Prisma integration, and e
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -35,7 +35,7 @@ bun install
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Start the development server:
 
@@ -51,7 +51,7 @@ http://localhost:3000
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 /app
@@ -66,7 +66,7 @@ http://localhost:3000
 
 ---
 
-## 🔥 Example Routes
+## Example Routes
 
 | Method | Path        | Description                       |
 | ------ | ----------- | --------------------------------- |
@@ -78,7 +78,7 @@ http://localhost:3000
 
 ---
 
-## 📦 Example Controller
+## Example Controller
 
 ```ts
 import RequestMethod from "../enums/RequestMethod";
@@ -100,7 +100,7 @@ export default class HomeController {
 
 ---
 
-## 🛠 Database (Prisma)
+## Database (Prisma)
 
 Setup your database using Prisma ORM.
 
@@ -118,7 +118,7 @@ const users = await Database.prisma.user.findMany();
 
 ---
 
-## ⚡ Middleware Example
+## Middleware Example
 
 ```ts
 export function logger(request: Request, response: Response, next: Function): void {
@@ -131,7 +131,7 @@ Register middleware as needed in your server setup.
 
 ---
 
-## 📦 Deployment
+## Deployment
 
 * Build your project with Bun if needed.
 * Deploy on any platform supporting Bun (Linux servers, Docker containers, or cloud providers).
@@ -139,13 +139,12 @@ Register middleware as needed in your server setup.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions, issues, and feature requests are welcome!
-Feel free to fork the repo and submit pull requests.
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page and submit pull requests.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
